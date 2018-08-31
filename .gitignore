@@ -1,23 +1,32 @@
-# Windows thumbnail cache files
+# Project
+.idea
+.vscode
+
+# Node
+node_modules
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+## Windows
 Thumbs.db
 ehthumbs.db
-ehthumbs_vista.db
-
-# Folder config file
 Desktop.ini
-
-# Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Package Managers
+yarn-error.log
+npm-debug.log
 
-# Windows shortcuts
-*.lnk
+# Build
+build
+vendor/*-manifest.json
 
-# =========================
-# Operating System Files
-# =========================
+# Docs
+gh-pages
